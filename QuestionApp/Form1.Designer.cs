@@ -93,7 +93,6 @@
             this.QuestionImage.Size = new System.Drawing.Size(512, 384);
             this.QuestionImage.TabIndex = 5;
             this.QuestionImage.TabStop = false;
-            this.QuestionImage.Click += new System.EventHandler(this.QuestionImage_Click);
             // 
             // QuestionForm
             // 
