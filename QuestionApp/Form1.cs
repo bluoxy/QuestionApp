@@ -193,10 +193,5 @@ namespace Questions
 
             this.DisplayQuestion();
         }
-
-        private void QuestionImage_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
