@@ -151,17 +151,6 @@ namespace Questions
                 this.AnswerButtons[i].Text = AllQuestions[CurrentNo].ButtonText[i];
             }
         }
-
-        /// <summary>
-        /// 回答処理
-        /// </summary>
-        /// <param name="questionNo">質問の番号</param>
-        /// <returns></returns>
-        private bool IsCorrectAnswer(int questionNo)
-        {
-            return false;
-        }
-
         #region ボタンの押下処理
         private void answer1_Click(object sender, EventArgs e)
         {
@@ -205,5 +194,9 @@ namespace Questions
             this.DisplayQuestion();
         }
 
+        private void QuestionImage_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

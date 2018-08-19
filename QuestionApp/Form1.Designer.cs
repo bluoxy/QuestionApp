@@ -93,8 +93,9 @@
             this.QuestionImage.Size = new System.Drawing.Size(512, 384);
             this.QuestionImage.TabIndex = 5;
             this.QuestionImage.TabStop = false;
+            this.QuestionImage.Click += new System.EventHandler(this.QuestionImage_Click);
             // 
-            // sample
+            // QuestionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -105,7 +106,7 @@
             this.Controls.Add(this.Answer2);
             this.Controls.Add(this.Question);
             this.Controls.Add(this.Answer1);
-            this.Name = "sample";
+            this.Name = "QuestionForm";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.QuestionImage)).EndInit();
             this.ResumeLayout(false);
